@@ -10,7 +10,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 if (num < 1 || num > 7)
 {
-    Console.WriteLine("не день недели");
+    Console.WriteLine("Вне диапазона");
 }
 else if (num == 6 || num == 7)
 {
